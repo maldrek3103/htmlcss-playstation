@@ -27,3 +27,10 @@
     border: 2px solid #0072ce;
     transform: translateY(-5px);
 }
+.ps5-items div{
+    filter: opacity(0.7);
+}
+.ps5-items div:hover{
+    border-bottom: 2px solid #0072ce;
+    filter: opacity(1);
+}
