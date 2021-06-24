@@ -14,8 +14,8 @@
 
 /* NAVBAR */
 /* HEADER */
-.hero-2{
-    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+.hero{
+    background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -36,4 +36,11 @@
 .ps5-items div:hover{
     border-bottom: 2px solid #0072ce;
     filter: opacity(1);
+}
+.hero-2{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 590px;
 }
