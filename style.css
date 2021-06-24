@@ -1,3 +1,4 @@
+/* UTILS */
 .bg-orange-red{
     background-color: #cd3d0f;
 }
@@ -11,9 +12,10 @@
 
 
 
-
-.hero{
-    background-image: url(./img/jumbo-bg.png);
+/* NAVBAR */
+/* HEADER */
+.hero-2{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -27,6 +29,7 @@
     border: 2px solid #0072ce;
     transform: translateY(-5px);
 }
+/* MAIN */
 .ps5-items div{
     filter: opacity(0.7);
 }
