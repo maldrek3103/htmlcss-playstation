@@ -1,0 +1,25 @@
+.bg-orange-red{
+    background-color: #cd3d0f;
+}
+
+
+
+
+
+
+
+.hero{
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 590px;
+}
+.hero-thumbs img{
+    padding: 2px;
+    border-radius: 20px;
+}
+.hero-thumbs img:hover{
+    border: 2px solid #0072ce;
+    transform: translateY(-5px);
+}
