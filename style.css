@@ -8,7 +8,9 @@
 .bg-main-blue{
     background-color: #0072ce;
 }
-
+.bg-lightgrey{
+    background-color: #d9dadc;
+}
 
 
 
@@ -52,4 +54,10 @@
 }
 .new-games img{
     border-radius: 20px;
+}
+.ps-plus-banner {
+    background-color: #bebcbb;
+}
+.ps-now-banner {
+    background-color: #161c3b;
 }
