@@ -27,6 +27,7 @@
 }
 .hero-thumbs img{
     padding: 2px;
+    border: 2px solid transparent;
     border-radius: 20px;
 }
 .hero-thumbs img:hover{
@@ -35,6 +36,7 @@
 }
 /* MAIN */
 .ps5-items div{
+    border-bottom: 2px solid transparent;
     filter: opacity(0.7);
 }
 .ps5-items div:hover{
@@ -47,4 +49,7 @@
     background-position: top;
     background-size: cover;
     height: 590px;
+}
+.new-games img{
+    border-radius: 20px;
 }
