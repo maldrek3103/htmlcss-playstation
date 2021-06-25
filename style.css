@@ -1,3 +1,9 @@
+/* RESET */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* UTILS */
 .bg-orange-red{
     background-color: #cd3d0f;
@@ -11,8 +17,12 @@
 .bg-lightgrey{
     background-color: #d9dadc;
 }
-
-
+.bg-blue-footer{
+    background-color: #00439c;
+}
+.w-15{
+    width: 15%;
+}
 
 /* NAVBAR */
 .sony-navbar{
@@ -60,4 +70,9 @@
 }
 .ps-now-banner {
     background-color: #161c3b;
+}
+/* FOOTER */
+footer ul{
+    list-style-type: none;
+    line-height: 1.5rem;
 }
