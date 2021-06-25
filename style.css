@@ -85,12 +85,42 @@ footer ul{
 }
 
 /* RESPONSIVE */
+
+/* EXTRA SMALL SCREENS */
+@media screen and (max-width: 576px){
+    /* HERO SECTION */
+    .hero-thumbs{
+        padding: 1.5rem 0;;
+    }
+    .hero-thumbs div{
+        padding: .5rem 1rem;
+    }
+    /* MAIN SECTION */
+}
+
+/* SMALL SCREENS */
 @media screen and (min-width: 576px){
+    /* HERO SECTION */
     .hero{
        padding: 3rem 1.5rem;
     }
     .hero-thumbs{
-        padding: 3rem 0;
+        padding: 1.5rem;
+    }
+    .hero-thumbs div{
+        padding: .5rem 1rem;
+    }
+    /* MAIN SECTION */
+    .ps5-items{
+        padding: 0 1.5rem;
+    }
+    
+}
+
+/* MEDIUM SCREENS */
+@media screen and (min-width: 768px) {
+    .show-only-md{
+        display: flex;
     }
 }
 @media screen and (min-width: 992px){
