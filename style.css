@@ -29,6 +29,9 @@ a{
     background-color: #000;
     height: 35px;
 }
+.show-only-lg{
+    display: none;
+}
 /* HEADER */
 .hero{
     background-image: url(./img/jumbo-bg.png);
@@ -75,4 +78,11 @@ a{
 footer ul{
     list-style-type: none;
     line-height: 1.5rem;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 992px){
+    .show-only-lg{
+        display: flex;
+    }
 }
