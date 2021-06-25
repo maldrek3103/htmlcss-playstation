@@ -32,6 +32,9 @@ a{
 .show-only-lg{
     display: none;
 }
+.show-only-md{
+    display: none;
+}
 /* HEADER */
 .hero{
     background-image: url(./img/jumbo-bg.png);
@@ -39,6 +42,7 @@ a{
     background-position: top;
     background-size: cover;
     height: 590px;
+    padding: 3rem 0;
 }
 .hero-thumbs img{
     padding: 2px;
@@ -47,7 +51,7 @@ a{
 }
 .hero-thumbs img:hover{
     border: 2px solid #0072ce;
-    transform: translateY(-5px);
+    transform: translateY(-3px);
 }
 /* MAIN */
 .ps5-items div{
@@ -81,6 +85,14 @@ footer ul{
 }
 
 /* RESPONSIVE */
+@media screen and (min-width: 576px){
+    .hero{
+       padding: 3rem 1.5rem;
+    }
+    .hero-thumbs{
+        padding: 3rem 0;
+    }
+}
 @media screen and (min-width: 992px){
     .show-only-lg{
         display: flex;
