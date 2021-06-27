@@ -23,11 +23,8 @@ a{
 .w-15{
     width: 15%;
 }
-
-/* NAVBAR */
-.sony-navbar{
-    background-color: #000;
-    height: 35px;
+.w-60{
+    width: 60%;
 }
 .show-only-lg{
     display: none;
@@ -35,7 +32,53 @@ a{
 .show-only-md{
     display: none;
 }
-/* HEADER */
+
+/* TEXTS */
+.hero h1,
+.ps5-explore h2,
+.ps5-details h2,
+.hero-2 h1,
+.ps4-explore h2,
+.ps4-details h2,
+.ps-store h2{
+    font-size: 2.5rem;
+}
+.ps5-explore p,
+.ps5-details p,
+.ps4-explore p,
+.ps4-details p,
+.ps-store p{
+    font-size: 1.2rem;
+}
+.ps5-explore p:first-child,
+.new-games p{
+    font-size: 1rem;
+}
+.ps5-items p{
+    font-size: 0.8rem;
+}
+.new-games h2,
+.socials h2{
+    font-size: 2rem;
+}
+.new-games h3{
+    font-size: 1.5rem;
+}
+
+/* MAIN */
+
+.sony-navbar{
+    background-color: #000;
+    height: 36px;
+    text-align: right;
+}
+.sony-bar-logo{
+    width: 75px;
+}
+.sony-navbar img{
+    display: inline-block;
+    height: 100%;
+}
 .hero{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -53,12 +96,11 @@ a{
     border: 2px solid #0072ce;
     transform: translateY(-3px);
 }
-/* MAIN */
-.ps5-items div{
+.ps5-items .box{
     border-bottom: 2px solid transparent;
     filter: opacity(0.7);
 }
-.ps5-items div:hover{
+.ps5-items .box:hover{
     border-bottom: 2px solid #0072ce;
     filter: opacity(1);
 }
@@ -69,6 +111,7 @@ a{
     background-size: cover;
     height: 590px;
 }
+
 .new-games img{
     border-radius: 20px;
 }
@@ -78,7 +121,6 @@ a{
 .ps-now-banner {
     background-color: #161c3b;
 }
-/* FOOTER */
 footer ul{
     list-style-type: none;
     line-height: 1.5rem;
@@ -96,7 +138,15 @@ footer ul{
         padding: .5rem 1rem;
     }
     /* MAIN SECTION */
+    .ps5-items{
+        align-content: flex-start;
+    }
+    .ps-plus-banner div:first-child,
+    .ps-now-banner div:first-child{
+        padding: 3rem 1rem;
+    }
 }
+
 
 /* SMALL SCREENS */
 @media screen and (min-width: 576px){
@@ -108,19 +158,40 @@ footer ul{
         padding: 1.5rem;
     }
     .hero-thumbs div{
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
     }
     /* MAIN SECTION */
     .ps5-items{
         padding: 0 1.5rem;
     }
-    
+    .hero-2{
+        padding: 3rem 1.5rem;
+    }
+    .new-games,
+    .ps-plus-banner,
+    .ps-now-banner,
+    .footer{
+        padding: 3rem 1rem;
+    }
 }
 
 /* MEDIUM SCREENS */
 @media screen and (min-width: 768px) {
     .show-only-md{
         display: flex;
+    }
+    .ps5-items{
+        justify-content: space-around;
+    }
+    .ps-plus-banner,
+    .ps-now-banner{
+        padding: 0 2rem;
+    }
+    .socials{
+        padding: 0 3rem;
+    }
+    footer ul{
+        padding: 1.5rem 0;
     }
 }
 @media screen and (min-width: 992px){
