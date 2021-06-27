@@ -79,6 +79,12 @@ a{
     display: inline-block;
     height: 100%;
 }
+.navbar i{
+    font-size: 0.6rem;
+}
+.navbar .bi-search{
+    font-size: 1rem;
+}
 .hero{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
