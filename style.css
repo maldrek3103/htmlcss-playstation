@@ -184,7 +184,7 @@ footer ul{
 /* MEDIUM SCREENS */
 @media screen and (min-width: 768px) {
     .show-only-md{
-        display: flex;
+        display: inline-block;
     }
     .ps5-items{
         justify-content: space-around;
