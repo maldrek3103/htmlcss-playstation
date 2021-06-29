@@ -128,13 +128,20 @@ a{
 .ps-plus-banner {
     background-color: #bebcbb;
 }
+.ps-plus-banner a:hover{
+    background-color: #fff;
+}
 .ps-now-banner {
     background-color: #161c3b;
+}
+.ps-now-banner a:hover{
+    background-color: #fff;
 }
 footer ul{
     list-style-type: none;
     line-height: 1.5rem;
 }
+
 
 /* RESPONSIVE */
 
